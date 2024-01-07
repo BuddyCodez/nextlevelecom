@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans&family=Oswald&family=Poppins&display=swap');
+:root {
+    --bg: #fff;
+    --hero_bg: #fea7a4;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--bg);
+    font-size: 16px;
+    color: #000;
+   font-family: 'Poppins', sans-serif;
+}
+.font-curve {
+    font-family: 'Great Vibes', cursive;
+}
+.categoryScrollWrap {
+    max-width: calc(100% - 1px);
+    width: 100%;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+.categoryScrollWrap::-webkit-scrollbar {
+    display: none;
+}
+.brandWrap {
+    /* 8*8 grid  */
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.cardBrand {
+    
+    border: none;
+    transition: all 0.5s linear;
+}
+.cardBrand:hover {
+   transform: scale(1.05);
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.heroImageWrapper {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    background-color: var(--hero_bg);
+    height: 50vh;
+     z-index: 0;
+}
+.extraIcons {
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    height: 240px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    /* add a white border at top left as a slight curve using the background-image: ; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+    justify-content: center;
+}
+.cardWrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: #003d29;
+    display: flex;
+    flex-direction: column;
+    padding: 30px ;
+    color: white;
+}
+.card h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+img.heroImg {
+    transform: translate(40px, 20px);
+     object-fit: cover;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease-in-out;
+}
+.font-poppin {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+@media (max-width: 600px) {
+    div.heroContainer {
+        visibility: hidden;
+        display: none;
+    }
+    .heroImageWrapper {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+/* // custom scroll bar  */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #3254c2;
+    border-radius: 17px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
