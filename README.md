@@ -1,40 +1,37 @@
-# Next.js & NextUI Template
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+# Welcome to NextLevelEcom 🌐
+NextLevelEcom is not just an e-commerce platform; it's a technological marvel that redefines the online shopping experience! 🚀
 
-## Technologies Used
+# Tech Stack
+- Next.js: Elevate your browsing with a lightning-fast and dynamic web application built on Next.js. 💻⚡
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- Tailwind CSS: Immerse yourself in a visually stunning UI crafted with precision using the sleek and responsive Talwind CSS framework. 🎨💼
 
-## How to Use
+- Ant Design: Experience sophistication and intuitive design with Ant Design, making navigation both aesthetically pleasing and user-friendly. 🌈🖱️
+
+- Supabase: Powering the backend, Supabase ensures robust, secure, and scalable transactions, laying the foundation for a seamless shopping journey. 🚀🔐
+
+# Next-Level Shopping
+At NextLevelEcom, we bring you a curated collection of products that redefine your expectations. From cutting-edge tech gadgets to the latest fashion trends, find the best in every category. 🌟👗📱
+
+# Getting Started
+Ready to embark on the NextLevelEcom experience? Follow our easy setup guide in the Wiki to deploy your own instance.
 
 
-### Use the template with create-next-app
+## Demo
 
-To create a new project based on this template using `create-next-app`, run the following command:
+Insert gif or link to demo
 
+
+## Installation
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+  git clone repository_url
+  npm install 
+  cd nextlevelecom
+  npm run dev or yarn run dev
 ```
+    
+# Contribute
+We believe in the power of collaboration. Contribute to NextLevelEcom and be a part of revolutionizing online shopping! 🛍️✨
 
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+Feel the future of e-commerce—NextLevelEcom awaits you. Dive into the extraordinary! 🚀🌟
